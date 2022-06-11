@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <ol>
+      <li>
+        Why is it important to write clean code?
+        <p>
+          Writing clean code is important because it allows you to clearly
+          communicate with the next person who works with what you've written.
+        </p>
+      </li>
+
+      <li>
+        What is the difference between good comments and bad comments?
+        <p></p>
+      </li>
+
+      <li>
+        What is an array?
+        <p>
+          An array is an ordered list of values. Each value is called an element
+          specified by an index.
+        </p>
+      </li>
+
+      <li>
+        What are arrays useful for?
+        <p>
+          Array is a single variable that is used to store different elements.
+          It is often used when we want to store list of elements and access
+          them by a single variable.
+        </p>
+      </li>
+
+      <li>
+        How do you access an array element?
+        <p>
+          An item in an array is accessed by referring to the index number of
+          the item in square brackets => someArray[1]
+        </p>
+      </li>
+
+      <li>
+        How do you change an array element?
+        <p></p>
+      </li>
+
+      <li>
+        What are some useful array properties?
+
+        <p>splice(), toString(), unshift(), pop(), length(), push(), shift()</p>
+      </li>
+
+      <li>
+        What are some useful array methods?
+        <p>filter(), forEach(), includes(), map(), sort(), reduce()</p>
+      </li>
+
+      <li>
+        What are loops useful for?
+        <p>
+          Loops are used to perform repeated tasks based on a condition.
+          Conditions typically return true or false . A loop will continue
+          running until the defined condition returns false .
+        </p>
+      </li>
+
+      <li>
+        What is the break statement?
+        <p>
+          The break statement breaks out of a switch or a loop. In a switch, it
+          breaks out of the switch block. This stops the execution of more code
+          inside the switch. In in a loop, it breaks out of the loop and
+          continues executing the code after the loop
+        </p>
+      </li>
+      <p></p>
+      <li>
+        What is the continue statement?
+        <p>
+          The continue statement terminates execution of the statements in the
+          current iteration of the current or labeled loop, and continues
+          execution of the loop with the next iteration.
+        </p>
+      </li>
+
+      <li>
+        What is the DOM?
+        <p>
+          The Document Object Model (DOM) is a programming interface for web
+          documents. It represents the page so that programs can change the
+          document structure, style, and content. The DOM represents the
+          document as nodes and objects; that way, programming languages can
+          interact with the page.
+        </p>
+      </li>
+
+      <li>
+        How do you target the nodes you want to work with?
+        <p>
+          document.querySelector(), querySelectorAll(),
+          document.getElementById(), document.getElementByClassName(),
+          getElementsByTagName(), getElementsByName().
+        </p>
+      </li>
+
+      <li>
+        How do you create an element in the DOM?
+        <p>const newDiv = document.createElement(div)</p>
+      </li>
+
+      <li>
+        How do you add an element to the DOM?
+        <p>const newP = document.createElement(p); newDiv.appendChild(newP)</p>
+      </li>
+
+      <li>
+        How do you remove an element from the DOM?
+        <p>
+          First, select the target element that you want to remove using DOM
+          methods such as querySelector(). Then, select the parent element of
+          the target element and use the removeChild() method.
+        </p>
+      </li>
+
+      <li>
+        How can you alter an element in the DOM?
+        <p>innerHTML, textContent, innerText</p>
+      </li>
+
+      <li>
+        When adding text to a DOM element, should you use textContent or
+        innerHTML?
+        <p>textContent</p>
+      </li>
+      <li>
+        Where should you include your JavaScript tag in your HTML file when
+        working with DOM nodes?
+        <p>Before closing the body tag.</p>
+      </li>
+
+      <li>
+        How do “events” and “listeners” work?
+        <p>
+          Events are actions or occurrences that happen in the system you are
+          programming, which the system tells you about so your code can react
+          to them. The listener listens out for the event happening, and the
+          handler is the code that is run in response to it happening.
+        </p>
+      </li>
+      <li>
+        What are three ways to use events in your code?
+        <p>Inline, using a property or using a listener</p>
+      </li>
+      <li>
+        Why are event listeners the preferred way to handle events?
+        <p></p>
+      </li>
+      <li>
+        What are the benefits of using named functions in your listeners?
+        <p>
+          First, on bigger projects, it lets you separate your functions, which
+          actually do things, from your event listeners, which trigger things.
+          You may also want to run some code in multiple instances. A named
+          function helps keep your code more DRY (an acronym for Don’t Repeat
+          Yourself). Second, you can remove them later if you want using
+          removeEventListener(). You cannot do this with anonymous functions.
+        </p>
+      </li>
+      <li>
+        How do you attach listeners to groups of nodes?
+        <p>With loops.</p>
+      </li>
+      <li>
+        What is the difference between the return values of querySelector and
+        querySelectorAll?
+        <p>
+          querySelector is choosing one element from node, querySelectorAll is
+          choosing all the elements that targeted and returns an array.
+        </p>
+      </li>
+      <li>
+        What does a “nodelist” contain?
+        <p>
+          A NodeList is a collection of document nodes (element nodes, attribute
+          nodes, and text nodes). NodeList items can only be accessed by their
+          index number.
+        </p>
+      </li>
+      <li>
+        Explain the difference between “capture” and “bubbling”.
+        <p>
+          Capturing phase – the event goes down to the element. Target phase –
+          the event reached the target element. Bubbling phase – the event
+          bubbles up from the element.
+        </p>
+      </li>
+      <li>
+        What is the difference between objects and arrays?
+        <p>
+          Objects represent a special data type that is mutable and can be used
+          to store a collection of data (rather than just a single value).
+          Arrays are a special type of variable that is also mutable and can
+          also be used to store a list of values.
+        </p>
+      </li>
+      <li>
+        How do you access object properties?
+        <p>
+          const myBook = { author: Someone, year: 1903, name: Something }
+          console.log(myBook) or myBook.author;
+        </p>
+      </li>
+    </ol>
+  </body>
+</html>
